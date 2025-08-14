@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Variables.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #bcbec4;}
+.s1 { color: #7a7e85;}
+.s2 { color: #bcbec4;}
+.s3 { color: #cf8e6d;}
+.s4 { color: #6aab73;}
+.s5 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Variables.java</font>
+</center></td></tr></table>
+<pre>    <span class="s1">// Variables.java</span>
+    <span class="s1">// dh 8/14/2025</span>
+    <span class="s1">//</span>
+     <span class="s2">/ </span><span class="s0">References</span><span class="s2">:</span>
+    <span class="s1">// https://www.w3schools.com/java/java_user_input.asp</span>
+
+    <span class="s1">// import statements are the top of the program</span>
+
+    <span class="s1">//import the scanner class</span>
+     <span class="s3">import </span><span class="s0">java</span><span class="s2">.</span><span class="s0">util</span><span class="s2">.</span><span class="s0">Scanner </span><span class="s2">;</span>
+
+
+
+
+    <span class="s3">public class </span><span class="s0">Variables </span><span class="s2">{</span>
+        <span class="s3">public static void </span><span class="s0">main</span><span class="s2">(</span><span class="s0">String</span><span class="s2">[] </span><span class="s0">args</span><span class="s2">) {</span>
+            <span class="s0">System</span><span class="s2">.</span><span class="s0">out</span><span class="s2">.</span><span class="s0">println</span><span class="s2">(</span><span class="s4">&quot;</span><span class="s3">\n\n </span><span class="s4">*** Welcome to my Fun With Variables Program! </span><span class="s3">\n\n</span><span class="s4">&quot;</span><span class="s2">);</span>
+            <span class="s1">//create a String variable named anything.</span>
+            <span class="s0">String anything </span><span class="s2">= </span><span class="s4">&quot; something else &quot;</span><span class="s2">;</span>
+            <span class="s0">System</span><span class="s2">.</span><span class="s0">out</span><span class="s2">.</span><span class="s0">println</span><span class="s2">(</span><span class="s0">anything</span><span class="s2">);</span>
+
+
+            <span class="s1">// Create a coupe of int vars names</span>
+            <span class="s3">int </span><span class="s0">num1 </span><span class="s2">= </span><span class="s5">0</span><span class="s2">;</span>
+            <span class="s3">int </span><span class="s0">num2 </span><span class="s2">= </span><span class="s5">0</span><span class="s2">;</span>
+
+            <span class="s1">// Create a Scanner object named scanner</span>
+            <span class="s0">Scanner scanner </span><span class="s2">= </span><span class="s3">new </span><span class="s0">Scanner</span><span class="s2">(</span><span class="s0">System</span><span class="s2">.</span><span class="s0">in</span><span class="s2">);</span>
+
+            <span class="s1">// Get a value from the user and store it in num1</span>
+            <span class="s0">System</span><span class="s2">.</span><span class="s0">out</span><span class="s2">.</span><span class="s0">print</span><span class="s2">(</span><span class="s4">&quot;</span><span class="s3">\n </span><span class="s4">Please enter a whole number for num1: &quot;</span><span class="s2">);</span>
+            <span class="s0">num1 </span><span class="s2">= </span><span class="s0">scanner</span><span class="s2">.</span><span class="s0">nextInt</span><span class="s2">();</span>
+
+            <span class="s1">// Prove that you got an int from the user</span>
+            <span class="s0">System</span><span class="s2">.</span><span class="s0">out</span><span class="s2">.</span><span class="s0">println</span><span class="s2">(</span><span class="s4">&quot;num1 = &quot;</span><span class="s2">+ </span><span class="s0">num1</span><span class="s2">);</span>
+        <span class="s2">}</span>
+    <span class="s2">}</span></pre>
+</body>
+</html>
